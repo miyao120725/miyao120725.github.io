@@ -1,0 +1,101 @@
+/*
+*  个人中心样式
+ */
+
+.personal-header {
+    padding: .75rem .5rem .5rem .5rem;
+    background: url("../../images/icon-back.png") no-repeat;
+    background-size: 100% auto;
+}
+
+.personal-header img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.personal-header span {
+    padding-left: .4rem;
+    font-size: .48rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-list-personal {
+    margin-top: .2rem;
+}
+
+.item-list-tab {
+    display: flex;
+    align-items: center;
+    padding: .24rem .3rem;
+    background: #ffffff;
+    margin-bottom: 1px;
+}
+
+.item-list-tab .left {
+    width: .48rem;
+    height: .48rem;
+}
+
+.item-list-tab .center {
+    flex: 1;
+    font-size: .32rem;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: .45rem;
+    padding: 0 .2rem;
+}
+
+.item-list-tab .right {
+    font-size: .28rem;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: .4rem;
+}
+
+.right-img {
+    width: .17rem;
+    height: .3rem;
+}
+
+.version-tab {
+    padding: .24rem .3rem;
+    background: #ffffff;
+    margin-bottom: 1px;
+}
+
+.version-tab .left {
+    font-size: .32rem;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+}
+
+.version-tab .right {
+    font-size: .28rem;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+
+.version-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: .3rem;
+}
+
+.version-btn button {
+    display: block;
+    width: 100%;
+    background: rgba(255, 100, 58, 1);
+    border-radius: .08rem;
+    padding: .2rem;
+    font-size: .36rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: .5rem;
+}
+
+.version-btn button:hover {
+    background: rgba(255, 100, 58, .6);
+}
